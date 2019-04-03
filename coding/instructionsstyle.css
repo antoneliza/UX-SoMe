@@ -15,14 +15,14 @@
         align-items: center;
     }
 
-    button {
+    .back {
         background-color: transparent;
         border: 1px solid #C42EAC;
         color: #C42EAC;
         border-radius: 20px;
         font-family: "Yumaro";
         height: 40px;
-        width: 70px;
+        width: auto;
     }
 
     nav {

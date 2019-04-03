@@ -1,4 +1,6 @@
-@media only screen and (max-width: 750px) {
+@media only screen and (min-width: 320px) {
+
+    /*SPLASH PAGE START*/
 
     body {
         border: 0;
@@ -19,7 +21,7 @@
     }
 
     p {
-        color: #FAD25E;
+        color: white;
         font-family: "Roboto";
         padding-top: 10%;
         font-size: 20px;
@@ -35,7 +37,7 @@
         padding-left: 10px;
     }
 
-    button {
+    .start {
         margin-top: 10%;
         background: #233927;
         /* Old browsers */
@@ -53,8 +55,302 @@
         color: #FAD25E;
         border-radius: 15px;
         font-size: 20px;
-        width: 30%;
+        width: auto;
 
     }
+
+    h3,
+    h1 {
+        font-family: "Yumaro";
+    }
+
+
+    h1 {
+        font-size: 30px;
+    }
+
+
+
+
+    /*SPLASH PAGE ENDS*/
+
+    /*WELCOME PAGE STARTS*/
+
+    #welcomemap {
+        width: 30%;
+        padding: 10px;
+    }
+
+
+
+    #welcometitle {
+        color: #FFD832;
+        font-size: 20px;
+    }
+
+
+
+
+    /*WELCOME PAGE ENDS*/
+
+    /*GAMES PAGE STARTS*/
+
+    #first {
+        color: #FFD832;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
+    .section {
+        width: 40%;
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .section img {
+        width: 100%;
+
+        border-radius: 10px;
+    }
+
+    .back {
+        background-color: transparent;
+        border: none;
+        color: #C42EAC;
+        border-radius: 10px;
+        font-family: "Yumaro";
+        height: 40px;
+        width: auto;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    nav div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .title {
+        text-shadow: 3px 3px #437D5A;
+    }
+
+    .heading {
+        color: #437D5A;
+        font-size: 30px;
+        margin-left: -40px;
+    }
+
+    #first {
+        color: #FFD832;
+        display: block;
+        font-size: 20px;
+        margin-top: -50px;
+    }
+
+    #second {
+        display: block;
+        font-family: "Yumaro";
+        margin-top: -35px;
+        margin-bottom: -15px;
+        font-size: 20px;
+    }
+
+    .heading2 {
+        text-align: center;
+    }
+
+    /*GAMES PAGE ENDS*/
+
+    /*MISSION PAGE STARTS*/
+    .mission {
+        color: #FFD832;
+        text-align: left;
+        display: block;
+        font-size: 20px;
+        padding-left: 5px;
+        margin-top: -30px;
+
+    }
+
+
+    hr {
+        float: left;
+        width: 30%;
+        margin-top: -15px;
+        border: 3px solid #FFD832;
+    }
+
+    .mission2 {
+        display: block;
+        font-family: "Yumaro";
+        font-size: 20px;
+         margin-top: -15px;
+        margin-bottom: -15px;
+    }
+
+    .game {
+        width: 80%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .game img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .description {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: none;
+        padding: 10px;
+        font-family: "Roboto";
+        color: #FFD832;
+    }
+    
+    .mission3 {
+        text-align: center;
+    }
+    
+
+
+
+
+    /*MISSION PAGE ENDS*/
+    
+    /*INSTRUCTIONS PAGE STARTS*/
+    
+    
+    #instructions p {
+        vertical-align: middle;
+    }
+
+    .v {
+        float: left;
+        width: 8%;
+        height: 8%;
+        padding: 10px;
+    }
+
+    #stickers img {
+        width: 10%;
+        height: 10%;
+    }
+    
+    #stickers {
+        padding-top: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .headline img{
+        width: 8%;
+        float: left;
+        padding: 10px;
+    }
+    
+    .headline h1 {
+        font-size: 20px;
+        font-family: "Roboto";
+    }
+    
+    .headline {
+        display: inline-block;
+    }
+    
+    .description2 img {
+        width: 50px;
+        float: left;
+        padding: 10px;
+    }
+    
+    .description2 {
+        padding-left: 55px;
+    }
+    
+    .description2 p {
+        float: left;
+        vertical-align: middle;
+        padding-top: 0;
+    }
+
+    
+    /*INSTRUCTIONS PAGE ENDS*/
+
+    /*QUESTIONS PAGE STARTS*/
+
+    #number {
+        font-size: 60px;
+        text-shadow: 3px 3px #437D5A;
+        font-family: "Yumaro";
+        padding: 10px;
+    }
+
+    #map {
+        width: 8%;
+    }
+
+    #help {
+        text-align: right;
+    }
+
+    #help img {
+        padding: 10px;
+        padding-top: 0;
+    }
+    
+
+    #question {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #question p {
+        font-size: 20px;
+        text-align: left;
+        padding-top: 0;
+    }
+
+    #bird {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #stickers {
+        display: inline-block;
+        margin-top: 3%;
+        align-content: center;
+        margin-left: 27%;
+
+    }
+
+    #stickers img {
+        width: 12%;
+        height: 12%;
+        padding: 5px;
+    }
+
+    #circle {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 3%;
+    }
+
+
+    /*QUESTIONS PAGE ENDS*/
 
 }
