@@ -3,9 +3,11 @@
     /*SPLASH PAGE START*/
 
     body {
-        border: 0;
+        padding: 40px;
         background-color: black;
         color: white;
+        font-family: "Roboto";
+        font-weight: 100;
     }
 
 
@@ -17,44 +19,41 @@
 
     #logo {
         width: 50%;
-        padding-top: 20%;
+        padding-top: 30%;
     }
 
     p {
         color: white;
         font-family: "Roboto";
-        padding-top: 10%;
-        font-size: 20px;
+        font-weight: 100;
+        font-size: 50px;
     }
 
     input {
         background-color: transparent;
         border: 1px #FAD25E solid;
         border-radius: 5px;
-        height: 40px;
-        width: 50%;
+        height: 80px;
+        width: 80%;
         color: white;
         padding-left: 10px;
+        font-size: 40px;
+        font-family: "Roboto";
+        color: #FAD25E;
     }
 
     .start {
-        margin-top: 10%;
-        background: #233927;
-        /* Old browsers */
-        background: -moz-linear-gradient(top, #233927 0%, #6a9857 100%);
-        /* FF3.6-15 */
+        margin-top: 7%;
         background: -webkit-linear-gradient(top, #233927 0%, #6a9857 100%);
         /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom, #233927 0%, #6a9857 100%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#233927', endColorstr='#6a9857', GradientType=0);
-        /* IE6-9 */
         border: none;
-        padding: 13px;
+        padding: 20px;
         font-family: "Yumaro";
         color: #FAD25E;
-        border-radius: 15px;
-        font-size: 20px;
+        border-radius: 40px;
+        font-size: 50px;
         width: auto;
 
     }
@@ -67,7 +66,9 @@
 
     h1 {
         font-size: 30px;
+        text-shadow: 3px 3px #437D5A;
     }
+
 
 
 
@@ -77,15 +78,34 @@
     /*WELCOME PAGE STARTS*/
 
     #welcomemap {
-        width: 30%;
-        padding: 10px;
+        width: 50%;
+        padding: 30px;
     }
 
 
 
     #welcometitle {
         color: #FFD832;
-        font-size: 20px;
+        font-size: 45px;
+        margin-top: -10px;
+        font-family: Roboto;
+    }
+    
+    #welcometitle em {
+        font-family: "Yumaro";
+        font-style: normal;
+    }
+    
+    .welcomecontent {
+        font-size: 15px;
+        line-height: 1.4;
+        text-align: justify;
+    }
+    
+    #hello {
+        font-size: 80px;
+        text-shadow: 7px 7px #437D5A;
+        padding-top: 10%;
     }
 
 
@@ -110,7 +130,6 @@
 
     .section img {
         width: 100%;
-
         border-radius: 10px;
     }
 
@@ -122,6 +141,8 @@
         font-family: "Yumaro";
         height: 40px;
         width: auto;
+        font-size: 70px;
+        position: absolute;
     }
 
     nav {
@@ -137,28 +158,33 @@
 
 
     .title {
-        text-shadow: 3px 3px #437D5A;
+        text-shadow: 5px 6px #437D5A;
+        font-size: 60px;
+        margin-bottom: 10%;
+        margin-top: 6%;
     }
 
     .heading {
         color: #437D5A;
-        font-size: 30px;
-        margin-left: -40px;
+        font-size: 40px;
+        margin-top: -30px;
+        position: relative;
     }
 
     #first {
         color: #FFD832;
         display: block;
-        font-size: 20px;
-        margin-top: -50px;
+        font-size: 50px;
+        font-weight: 400;
+        margin-top: 10%;
+        margin-bottom: -20px;
     }
 
     #second {
         display: block;
         font-family: "Yumaro";
-        margin-top: -35px;
-        margin-bottom: -15px;
-        font-size: 20px;
+        margin-bottom: -10px;
+        font-size: 40px;
     }
 
     .heading2 {
@@ -168,13 +194,14 @@
     /*GAMES PAGE ENDS*/
 
     /*MISSION PAGE STARTS*/
+    
     .mission {
         color: #FFD832;
         text-align: left;
         display: block;
-        font-size: 20px;
-        padding-left: 5px;
-        margin-top: -30px;
+        font-size: 50px;
+        padding-left: 10%;
+        margin-top: 10%;
 
     }
 
@@ -182,16 +209,17 @@
     hr {
         float: left;
         width: 30%;
-        margin-top: -15px;
+        margin-top: -45px;
         border: 3px solid #FFD832;
+        margin-left: 10%;
     }
 
     .mission2 {
         display: block;
         font-family: "Yumaro";
-        font-size: 20px;
+        font-size: 40px;
          margin-top: -15px;
-        margin-bottom: -15px;
+        margin-bottom: -45px;
     }
 
     .game {
@@ -214,6 +242,7 @@
         padding: 10px;
         font-family: "Roboto";
         color: #FFD832;
+        text-align: justify;
     }
     
     .mission3 {
@@ -254,34 +283,39 @@
     
 
     .headline img{
-        width: 8%;
+        width: 50px;
         float: left;
-        padding: 10px;
+        padding-right: 30px;
     }
     
     .headline h1 {
-        font-size: 20px;
+        font-size: 55px;
         font-family: "Roboto";
+        margin: 0;
+        
     }
     
     .headline {
         display: inline-block;
+        width: 100%;
     }
     
-    .description2 img {
-        width: 50px;
-        float: left;
+    .descriptiontwo img {
+        width: 90px;
         padding: 10px;
+        
     }
     
-    .description2 {
+    .descriptiontwo {
         padding-left: 55px;
     }
     
-    .description2 p {
+    .descriptiontwo p {
         float: left;
-        vertical-align: middle;
-        padding-top: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+        
     }
 
     
@@ -290,10 +324,10 @@
     /*QUESTIONS PAGE STARTS*/
 
     #number {
-        font-size: 60px;
+        font-size: 150px;
         text-shadow: 3px 3px #437D5A;
         font-family: "Yumaro";
-        padding: 10px;
+        padding-left: 30px;
     }
 
     #map {
@@ -302,6 +336,12 @@
 
     #help {
         text-align: right;
+    }
+    
+    #help em {
+        color: #FFD832;
+        font-style: normal;
+        font-weight: 500;
     }
 
     #help img {
@@ -316,9 +356,9 @@
     }
 
     #question p {
-        font-size: 20px;
+        font-size: 50px;
         text-align: left;
-        padding-top: 0;
+        margin: 10px;
     }
 
     #bird {
@@ -326,13 +366,15 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
+        margin-top: 3%;
     }
 
     #stickers {
         display: inline-block;
-        margin-top: 3%;
+        margin-top: 5%;
         align-content: center;
-        margin-left: 27%;
+        width: 100%;
+        text-align: center;
 
     }
 
@@ -344,10 +386,10 @@
 
     #circle {
         width: 20%;
+        margin-top: 10%;
         margin-left: auto;
         margin-right: auto;
         display: block;
-        margin-top: 3%;
     }
 
 
