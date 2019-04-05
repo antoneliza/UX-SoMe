@@ -17,10 +17,12 @@
         align-items: center;
     }
 
-    #logo {
+    .logo {
         width: 50%;
         padding-top: 30%;
     }
+    
+
 
     p {
         color: white;
@@ -90,18 +92,18 @@
         margin-top: -10px;
         font-family: Roboto;
     }
-    
+
     #welcometitle em {
         font-family: "Yumaro";
         font-style: normal;
     }
-    
+
     .welcomecontent {
         font-size: 15px;
         line-height: 1.4;
         text-align: justify;
     }
-    
+
     #hello {
         font-size: 80px;
         text-shadow: 7px 7px #437D5A;
@@ -194,7 +196,7 @@
     /*GAMES PAGE ENDS*/
 
     /*MISSION PAGE STARTS*/
-    
+
     .mission {
         color: #FFD832;
         text-align: left;
@@ -218,7 +220,7 @@
         display: block;
         font-family: "Yumaro";
         font-size: 40px;
-         margin-top: -15px;
+        margin-top: -15px;
         margin-bottom: -45px;
     }
 
@@ -244,20 +246,20 @@
         color: #FFD832;
         text-align: justify;
     }
-    
+
     .mission3 {
         text-align: center;
     }
-    
+
 
 
 
 
     /*MISSION PAGE ENDS*/
-    
+
     /*INSTRUCTIONS PAGE STARTS*/
-    
-    
+
+
     #instructions p {
         vertical-align: middle;
     }
@@ -273,52 +275,52 @@
         width: 10%;
         height: 10%;
     }
-    
+
     #stickers {
         padding-top: 5%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    
 
-    .headline img{
+
+    .headline img {
         width: 50px;
         float: left;
         padding-right: 30px;
     }
-    
+
     .headline h1 {
         font-size: 55px;
         font-family: "Roboto";
         margin: 0;
-        
+
     }
-    
+
     .headline {
         display: inline-block;
         width: 100%;
     }
-    
+
     .descriptiontwo img {
         width: 90px;
         padding: 10px;
-        
+
     }
-    
+
     .descriptiontwo {
         padding-left: 55px;
     }
-    
+
     .descriptiontwo p {
         float: left;
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 30px;
-        
+
     }
 
-    
+
     /*INSTRUCTIONS PAGE ENDS*/
 
     /*QUESTIONS PAGE STARTS*/
@@ -337,7 +339,7 @@
     #help {
         text-align: right;
     }
-    
+
     #help em {
         color: #FFD832;
         font-style: normal;
@@ -348,7 +350,7 @@
         padding: 10px;
         padding-top: 0;
     }
-    
+
 
     #question {
         display: flex;
