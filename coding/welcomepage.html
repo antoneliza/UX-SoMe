@@ -13,6 +13,10 @@
         }
 
     </style>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        ScrollReveal({ duration: 1000 })
+	</script>
 </head>
 
 <body>
@@ -32,10 +36,26 @@
         </div>
 
         <form>
-            <input type="button" value="Let's go!" onclick="window.location.href='games.html'"/>
+            <input type="button" value="Let's go!" onclick="window.location.href='games.html'" />
         </form>
     </main>
 
+    <script>
+        ScrollReveal().reveal('#hello')
+        ScrollReveal().reveal('#welcometitle', {
+            delay: 500
+        })
+        ScrollReveal().reveal('.welcomecontent', {
+            delay: 1300
+        })
+        ScrollReveal().reveal('#welcomemap', {
+            delay: 1400
+        })
+        ScrollReveal().reveal('form', {
+            delay: 2500
+        })
+
+    </script>
 
 
 </body>
