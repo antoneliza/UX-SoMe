@@ -44,8 +44,8 @@
         color: #FAD25E;
     }
 
-    .start {
-        margin-top: 7%;
+    form input {
+        margin-top: 10%;
         background: -webkit-linear-gradient(top, #233927 0%, #6a9857 100%);
         /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom, #233927 0%, #6a9857 100%);
@@ -81,7 +81,7 @@
 
     #welcomemap {
         width: 50%;
-        padding: 30px;
+        padding-left: 20px;
     }
 
 
@@ -305,6 +305,7 @@
     .descriptiontwo img {
         width: 90px;
         padding: 10px;
+        vertical-align: middle;
 
     }
 
@@ -327,9 +328,10 @@
 
     #number {
         font-size: 150px;
-        text-shadow: 3px 3px #437D5A;
+        text-shadow: 15px 15px #437D5A;
         font-family: "Yumaro";
         padding-left: 30px;
+        padding-right: 20px;
     }
 
     #map {
@@ -361,6 +363,7 @@
         font-size: 50px;
         text-align: left;
         margin: 10px;
+        font-weight: bold;
     }
 
     #bird {
