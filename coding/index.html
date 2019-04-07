@@ -22,12 +22,17 @@
         <p>What is your name/name of your group?</p>
         <input type="text">
         <form>
-            <input type="button" value="continue" onclick="window.location.href='welcomepage.html'"/>
+            <input type="button" value="continue" onclick="window.location.href='welcomepage.html'" />
         </form>
     </main>
 
     <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="jquery/indexjquery.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("main").hide(0).delay(0).fadeIn(2000);
+        });
+
+    </script>
 
 </body>
 
