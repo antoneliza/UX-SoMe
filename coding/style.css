@@ -5,6 +5,8 @@
     body {
         padding: 40px;
         background-color: #111111;
+        background-image:url(media/background.png);
+        background-size: 100%;
         color: white;
         font-family: "Roboto";
         font-weight: 100;
@@ -22,8 +24,9 @@
         padding-top: 30%;
     }
     
-
-
+     #quote {
+        font-size: 35px;
+    }
     p {
         color: white;
         font-family: "Roboto";
@@ -33,9 +36,9 @@
 
     input {
         background-color: transparent;
-        border: 1px #FAD25E solid;
+        border: 3px #FAD25E solid;
         border-radius: 5px;
-        height: 80px;
+        height: 120px;
         width: 80%;
         color: white;
         padding-left: 10px;
@@ -45,7 +48,7 @@
     }
 
     form input {
-        margin-top: 10%;
+        margin-top: 15%;
         background: -webkit-linear-gradient(top, #233927 0%, #6a9857 100%);
         /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom, #233927 0%, #6a9857 100%);
