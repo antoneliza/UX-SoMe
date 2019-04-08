@@ -1,11 +1,49 @@
 @media only screen and (min-width: 320px) {
 
+    @font-face {
+        font-family: "Yumaro";
+        src: url(Yumaro.otf);
+    }
+
+    /*LOADING PAGE START*/
+
+    #loadingbody {
+        background-color: #437d5a;
+        background-image: none;
+    }
+
+    .loadingcontent {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    #loading {
+        font-size: 50px;
+    }
+
+
+    #poweredby {
+        color: black;
+        width: 100%;
+        font-size: 40px;
+        font-family: "Yumaro";
+    }
+
+    #museumlogo {
+        width: 600px;
+    }
+
+    /*LOADING PAGE START*/
+
+
     /*SPLASH PAGE START*/
 
     body {
         padding: 40px;
         background-color: #111111;
-        background-image:url(media/background.png);
+        background-image: url(media/background.png);
         background-size: 100%;
         color: white;
         font-family: "Roboto";
@@ -19,14 +57,20 @@
         align-items: center;
     }
 
+    .mainpage {
+        background-image: url(media/background.png);
+        background-size: 100%;
+    }
+
     .logo {
         width: 60%;
         padding-top: 30%;
     }
-    
-     #quote {
+
+    #quote {
         font-size: 35px;
     }
+
     p {
         color: white;
         font-family: "Roboto";
@@ -48,7 +92,7 @@
     }
 
     form input {
-        margin-top: 15%;
+        margin-top: 4%;
         background: -webkit-linear-gradient(top, #233927 0%, #6a9857 100%);
         /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom, #233927 0%, #6a9857 100%);
@@ -84,7 +128,7 @@
 
     #welcomemap {
         width: 50%;
-        padding-left: 20px;
+        padding-right: 20px;
     }
 
 
@@ -92,11 +136,12 @@
     #welcometitle {
         color: #FFD832;
         font-size: 45px;
-        margin-top: -10px;
+        margin-top: -20px;
+        margin-bottom: -20px;
         font-family: Roboto;
     }
-    
-    
+
+
 
     #welcometitle em {
         font-family: "Yumaro";
@@ -105,14 +150,13 @@
 
     .welcomecontent {
         font-size: 15px;
-        line-height: 1.4;
-        text-align: justify;
+        line-height: 1.3;
     }
 
     #hello {
         font-size: 80px;
         text-shadow: 7px 7px #437D5A;
-        padding-top: 10%;
+        padding-top: 2%;
     }
 
 
@@ -208,7 +252,7 @@
         display: block;
         font-size: 50px;
         padding-left: 10%;
-        margin-top: 10%;
+        margin-top: 7%;
 
     }
 
@@ -231,6 +275,7 @@
 
     .game {
         width: 80%;
+        max-width: 80%;
         position: relative;
         display: inline-block;
     }
@@ -242,6 +287,7 @@
 
     .description {
         width: 80%;
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
@@ -250,6 +296,8 @@
         font-family: "Roboto";
         color: #FFD832;
         text-align: justify;
+        font-size: 30px;
+
     }
 
     .mission3 {
@@ -331,6 +379,10 @@
 
     /*QUESTIONS PAGE STARTS*/
 
+    .gamebody {
+        background-image: none;
+    }
+    
     #number {
         font-size: 150px;
         text-shadow: 15px 15px #437D5A;
