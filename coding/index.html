@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Splash page</title>
-    <meta name="viewport" "content=width=device-width, initial-scale=1.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     
 </head>
@@ -13,12 +13,11 @@
 
     <main>
         <img src="media/logo.png" class="logo" alt="logo">
-        <p>
-            <em id="quote">
+        <p id="quote">
                 The place where 4 areas meet.
                 <br>
                 Are you ready to explore them?
-            </em>
+           
         </p>
         <p>What is your name/name of your group?</p>
         <input type="text">
@@ -27,10 +26,10 @@
         </form>
     </main>
 
-    <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="jquery/jquery-3.3.1.min.js"></script>
     <script>
         $(document).ready(function() {
-            $("main").hide(0).delay(0).fadeIn(2000);
+            $(".mainpage").hide(0).delay(0).fadeIn(2000);
         });
 
     </script>

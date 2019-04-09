@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Games</title>
-    <meta name="viewport" "content=width=device-width, initial-scale=1.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style type="text/css">
+    <style>
         < !-- @font-face {
             font-family: Yumaro;
             src: url('Yumaro.otf');
         }
 
     </style>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        ScrollReveal
+        ({ duration: 1100 })
+
+    </script>
 </head>
 
 <body>
@@ -21,7 +27,7 @@
         <div id="content">
             <nav>
                 <a href="welcomepage.html">
-                <button class="back"><i class="fa fa-arrow-left"></i></button>
+                    <button class="back"><i class="fa fa-arrow-left"></i></button>
                 </a>
                 <div class="heading">
                     <h3>games</h3>
@@ -32,14 +38,33 @@
                 <p id="second">Let's hop into the</p>
                 <h1 class="title">Mediterranean<br>forest</h1>
 
-                <a href="mission.html"><div class="section"><img src="media/game1selected.jpg"></div></a>
-                <div class="section"><img src="media/game2locked.jpg"></div>
-                <div class="section"><img src="media/game3locked.jpg"></div>
-                <div class="section"><img src="media/game4locked.jpg"></div>
+                <a href="mission.html">
+                    <div class="section"><img src="media/game1selected.jpg" id="game1" alt="game1"></div>
+                </a>
+                <div class="section"><img src="media/game2locked.jpg" id="game2" alt="game2"></div>
+                <div class="section"><img src="media/game3locked.jpg" id="game3" alt="game3"></div>
+                <div class="section"><img src="media/game4locked.jpg" id="game4" alt="game4"></div>
             </div>
         </div>
 
     </main>
+
+    <script>
+        ScrollReveal().reveal('#game1', {
+            delay: 500
+        })
+        ScrollReveal().reveal('#game2', {
+            delay: 700
+        })
+        ScrollReveal().reveal('#game3', {
+            delay: 900
+        })
+        ScrollReveal().reveal('#game4', {
+            delay: 1100
+        })
+
+    </script>
+
 </body>
 
 </html>

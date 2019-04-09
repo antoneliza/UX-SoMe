@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Mission</title>
-    <meta name="viewport" "content=width=device-width, initial-scale=1.8">
+    <title>First question</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style type="text/css">
@@ -14,40 +14,57 @@
         }
 
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body class="gamebody">
     <main>
+
         <div id="content">
             <nav>
                 <a href="instructions.html">
-                <button class="back"><i class="fa fa-arrow-left"></i></button>
+                    <button class="back"><i class="fa fa-arrow-left"></i></button>
                 </a>
                 <div class="heading">
                     <h3>mediterranean forest</h3>
                 </div>
+                <button class="home"><a href="games.html"><img src="media/homeicon.png" style="width: 100%" alt="homeicon" ></a></button>
             </nav>
 
-            <p id="help"><img src="media/mapicon.png" id="map" align="right"><em>Need help?</em><br>Check the map</p>
+
             <div id="question">
                 <div id="number">1</div>
                 <div>
                     <p>Find the plastic item so the rosemary herb can still be used. </p>
                 </div>
             </div>
-            <img src="media/circle1.png" id="bird">
+            <img src="media/circle1.png" id="bird" alt="rosemary bird">
 
             <div id="stickers">
-                <img src="media/plasticbag.png">
-                <img src="media/straw.png">
-                <img src="media/cottonbuds.png">
-                <img src="media/plasticbottle.png">
+                <img src="media/plasticbag.png" alt="plastic bag icon">
+                <img src="media/straw.png" alt="straw icon">
+                <img src="media/cottonbuds.png" alt="cotton buds icon">
+                <img src="media/plasticbottle.png" alt="plastic bottle icon">
             </div>
 
-            <img src="media/camerabutton.png" id="circle">
+            <p id="help"><a href="gardenmap.html" alt="garden map"><img src="media/mapicon.png" id="map" align="right"></a><em>Need help?</em><br>Check the map</p>
+
 
         </div>
+
+        <div class="continue">
+            <form>
+                <input type="button" value="Continue" onclick="window.location.href='secondquestion.html'" />
+            </form>
+        </div>
     </main>
+
+    <script>
+        $("#stickers").click(function() {
+            $(".continue").show();
+        });
+
+    </script>
 </body>
 
 </html>

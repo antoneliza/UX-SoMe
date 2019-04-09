@@ -8,7 +8,8 @@
     /*SPLASH PAGE START*/
 
     body {
-        padding: 40px;
+        padding: 15px;
+        padding-top: 30px;
         background-color: #111111;
         background-image: url(media/background.png);
         background-size: 100%;
@@ -24,6 +25,8 @@
         align-items: center;
     }
 
+
+
     .mainpage {
         background-image: url(media/background.png);
         background-size: 100%;
@@ -35,26 +38,27 @@
     }
 
     #quote {
-        font-size: 35px;
+        font-size: 15px;
+        font-style: italic;
     }
 
     p {
         color: white;
         font-family: "Roboto";
         font-weight: 100;
-        font-size: 40px;
+        font-size: 18px;
     }
 
     input {
         background-color: transparent;
-        border: 3px #FAD25E solid;
+        border: 2px #FAD25E solid;
         border-radius: 5px;
-        height: 120px;
+        height: 40px;
         width: 80%;
         color: white;
         padding-left: 10px;
         margin-bottom: 30Px;
-        font-size: 40px;
+        font-size: 20px;
         font-family: "Roboto";
         color: #FAD25E;
     }
@@ -66,11 +70,10 @@
         background: linear-gradient(to bottom, #233927 0%, #6a9857 100%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         border: none;
-        padding: 20px;
         font-family: "Yumaro";
         color: #FAD25E;
         border-radius: 40px;
-        font-size: 50px;
+        font-size: 20px;
         width: auto;
 
     }
@@ -96,35 +99,33 @@
 
     #welcomemap {
         width: 50%;
-        padding-right: 20px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
 
 
     #welcometitle {
         color: #FFD832;
-        font-size: 45px;
-        margin-top: -20px;
-        margin-bottom: -20px;
-        font-family: Roboto;
+        font-size: 18px;
+        margin-top: -10px;
+        font-family: "Roboto";
     }
 
 
 
-    #welcometitle em {
-        font-family: "Yumaro";
-        font-style: normal;
-    }
+
 
     .welcomecontent {
         font-size: 15px;
         line-height: 1.3;
+        text-align: justify;
     }
 
     #hello {
-        font-size: 80px;
-        text-shadow: 7px 7px #437D5A;
-        padding-top: 2%;
+        font-size: 35px;
+        text-shadow: 3px 3px #437D5A;
     }
 
 
@@ -141,10 +142,10 @@
     }
 
     .section {
-        width: 40%;
+        width: 45%;
         position: relative;
         display: inline-block;
-        padding: 10px;
+        padding: 5px;
     }
 
     .section img {
@@ -158,10 +159,25 @@
         color: #C42EAC;
         border-radius: 10px;
         font-family: "Yumaro";
-        height: 40px;
+        height: 20px;
         width: auto;
-        font-size: 70px;
+        font-size: 25px;
         position: absolute;
+        margin-top: -4%;
+        margin-left: -3%;
+    }
+    
+    .home {
+        background-color: transparent;
+        border: none;
+        color: #C42EAC;
+        border-radius: 10px;
+        font-family: "Yumaro";
+        width: 9%;
+        font-size: 25px;
+        position: absolute;
+        margin-top: -4%;
+        margin-left: 82%;
     }
 
     nav {
@@ -177,15 +193,15 @@
 
 
     .title {
-        text-shadow: 5px 6px #437D5A;
-        font-size: 60px;
-        margin-bottom: 10%;
+        text-shadow: 3px 3px #437D5A;
+        font-size: 30px;
+        margin-bottom: 5%;
         margin-top: 6%;
     }
 
     .heading {
         color: #437D5A;
-        font-size: 40px;
+        font-size: 17px;
         margin-top: -30px;
         position: relative;
     }
@@ -193,17 +209,17 @@
     #first {
         color: #FFD832;
         display: block;
-        font-size: 50px;
+        font-size: 18px;
         font-weight: 400;
-        margin-top: 10%;
-        margin-bottom: -20px;
+        margin-top: 2%;
+        margin-bottom: -10px;
     }
 
     #second {
         display: block;
         font-family: "Yumaro";
         margin-bottom: -10px;
-        font-size: 40px;
+        font-size: 17px;
     }
 
     .heading2 {
@@ -218,9 +234,9 @@
         color: #FFD832;
         text-align: left;
         display: block;
-        font-size: 50px;
+        font-size: 20px;
         padding-left: 10%;
-        margin-top: 7%;
+        margin-top: 3%;
 
     }
 
@@ -228,17 +244,22 @@
     hr {
         float: left;
         width: 23%;
-        margin-top: -45px;
-        border: 3px solid #FFD832;
+        border: 1px solid #FFD832;
         margin-left: 10%;
+        margin-top: -6%;
     }
 
     .mission2 {
         display: block;
         font-family: "Yumaro";
-        font-size: 40px;
-        margin-top: -15px;
-        margin-bottom: -45px;
+        font-size: 20px;
+        margin-top: -8%;
+    }
+
+    .titletwo {
+        text-shadow: 3px 3px #437D5A;
+        font-size: 30px;
+        margin-top: -8%;
     }
 
     .game {
@@ -250,7 +271,6 @@
 
     .game img {
         width: 100%;
-        border-radius: 10px;
     }
 
     .description {
@@ -260,18 +280,41 @@
         margin-right: auto;
         margin-top: 20px;
         border: none;
-        padding: 10px;
+
+    }
+
+    .description p {
         font-family: "Roboto";
         color: #FFFFFF;
         text-align: justify;
-        font-size: 30px;
-
+        font-size: 15px;
+        margin-top: -4%;
     }
 
     .mission3 {
         text-align: center;
     }
 
+    .globe p {
+        font-size: 13px;
+        color: #FFD832;
+        text-align: left;
+        padding-left: 10%;
+        margin-top: -1%;
+
+    }
+
+    .globeimg {
+        vertical-align: middle;
+        padding-top: ;
+        width: 24%;
+        padding-right: 10%;
+    }
+
+    .globe {
+        display: flex;
+        flex-direction: row;
+    }
 
 
 
@@ -306,14 +349,15 @@
 
 
     .headline img {
-        width: 50px;
+        width: 20px;
         float: left;
-        padding-right: 30px;
+        padding-right: 5px;
     }
 
-    .headline h1 {
-        font-size: 55px;
+    .headline p {
+        font-size: 20px;
         font-family: "Roboto";
+        font-weight: 900;
         margin: 0;
 
     }
@@ -321,26 +365,27 @@
     .headline {
         display: inline-block;
         width: 100%;
+        margin-bottom: 15px;
     }
 
     .descriptiontwo img {
-        width: 90px;
-        padding: 10px;
+        width: 50px;
+        padding: 4px;
+        padding-top: 10px;
         vertical-align: middle;
 
     }
 
     .descriptiontwo {
-        padding-left: 55px;
+        padding-bottom: 20px;
+        padding-left: 25px;
     }
 
     .descriptiontwo p {
         float: left;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        padding-left: 15px;
-        font-size: 30px;
-        
+        padding-bottom: 10px;
+        font-size: 15px;
+
 
     }
 
@@ -352,13 +397,13 @@
     .gamebody {
         background-image: none;
     }
-    
+
     #number {
-        font-size: 150px;
-        text-shadow: 15px 15px #437D5A;
+        font-size: 50px;
+        text-shadow: 3px 3px #437D5A;
         font-family: "Yumaro";
-        padding-left: 30px;
-        padding-right: 20px;
+        padding-left: 20px;
+        padding-right: 5px;
     }
 
     #map {
@@ -367,6 +412,7 @@
 
     #help {
         text-align: right;
+        font-size: 15px;
     }
 
     #help em {
@@ -384,10 +430,11 @@
     #question {
         display: flex;
         flex-direction: row;
+        padding-top: 5%;
     }
 
     #question p {
-        font-size: 50px;
+        font-size: 17px;
         text-align: left;
         margin: 10px;
         font-weight: bold;
@@ -403,7 +450,7 @@
 
     #stickers {
         display: inline-block;
-        margin-top: 5%;
+        margin-top: -3%;
         align-content: center;
         width: 100%;
         text-align: center;
@@ -411,9 +458,16 @@
     }
 
     #stickers img {
-        width: 12%;
+        width: 15%;
         height: 12%;
-        padding: 5px;
+        padding: 10px;
+        background-color: none;
+        border-radius: 80px;
+    }
+
+    #stickers img:hover {
+        background-color: #FFD832;
+        transition-duration: 1s;
     }
 
     #circle {
@@ -424,7 +478,41 @@
         display: block;
     }
 
+    .continue {
+        display: none;
+    }
 
-    /*QUESTIONS PAGE ENDS*/
+
+    /*QUESTIONS PAGE END*/
+
+    /*MAP PAGE START*/
+
+    .close {
+        background-color: transparent;
+        border: none;
+        color: #C42EAC;
+        border-radius: 10px;
+        font-family: "Yumaro";
+        height: 40px;
+        width: auto;
+        font-size: 20px;
+        position: absolute;
+        margin-top: -5%;
+    }
+
+    .closing {
+        width: 100%;
+        display: block;
+    }
+
+    #botanicalgarden {
+        width: 100%;
+    }
+
+    #botanicalgarden img {
+        width: 100%;
+    }
+
+    /*MAP PAGE END*/
 
 }

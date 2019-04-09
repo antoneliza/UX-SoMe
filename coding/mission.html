@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mission</title>
-    <meta name="viewport" "content=width=device-width, initial-scale=1.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="Yumaro.otf" rel="stylesheet">
@@ -16,21 +16,29 @@
         <div id="content">
             <nav>
                 <a href="games.html">
-                <button class="back"><i class="fa fa-arrow-left"></i></button>
+                    <button class="back"><i class="fa fa-arrow-left"></i></button>
                 </a>
                 <div class="heading">
                     <h3>mediterranean forest</h3>
                 </div>
+                <button class="home"><a href="games.html"><img src="media/homeicon.png" style="width: 100%" alt="homeicon"></a></button>
             </nav>
             <p class="mission">Mission:</p>
             <hr><br>
             <div class="mission3">
                 <h4 class="mission2">Clear the</h4>
-                <h1 class="title">Plastic traps</h1>
-                <div class="game"><img src="media/game1instructions.jpg"></div>
-                <div class="description">This beautiful mediterranean forest is polluted with plastic materials. Some animals are in danger. Help us clean their home!</div>
+                <h1 class="titletwo">Plastic traps</h1>
+                <div class="game"><img src="media/game1instructions.jpg" alt="botanical garden"></div>
+                <div class="description">
+                    <p>This beautiful mediterranean forest is polluted with plastic materials. Some animals are in danger. Help us clean their home!</p>
+                </div>
 
-                <form>
+                <div class="globe">
+                    <p>Click on the globe to see real images of regions around the world affected by this big problem</p>
+                    <div class="globeimg"><a href="apimap.html"><img src="media/globe.png" style="width: 80%;"></a></div>
+                </div>
+
+                <form style="margin-top: -2%">
                     <input type="button" value="Instructions" onclick="window.location.href='instructions.html'" />
                 </form>
             </div>
