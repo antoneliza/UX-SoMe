@@ -5,39 +5,6 @@
         src: url(Yumaro.otf);
     }
 
-    /*LOADING PAGE START*/
-
-    #loadingbody {
-        background-color: #437d5a;
-        background-image: none;
-    }
-
-    .loadingcontent {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 20%;
-    }
-
-    #loading {
-        font-size: 50px;
-    }
-
-
-    #poweredby {
-        color: black;
-        width: 100%;
-        font-size: 40px;
-        font-family: "Yumaro";
-    }
-
-    #museumlogo {
-        width: 600px;
-    }
-
-    /*LOADING PAGE START*/
-
-
     /*SPLASH PAGE START*/
 
     body {
