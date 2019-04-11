@@ -34,7 +34,7 @@
 
     .logo {
         width: 60%;
-        padding-top: 30%;
+        padding-top: 10%;
     }
 
     #quote {
@@ -120,7 +120,6 @@
     .welcomecontent {
         font-size: 15px;
         line-height: 1.3;
-        text-align: justify;
     }
 
     #hello {
@@ -246,7 +245,7 @@
         width: 23%;
         border: 1px solid #FFD832;
         margin-left: 10%;
-        margin-top: -6%;
+        margin-top: -5%;
     }
 
     .mission2 {
@@ -259,7 +258,7 @@
     .titletwo {
         text-shadow: 3px 3px #437D5A;
         font-size: 30px;
-        margin-top: -8%;
+        margin-top: -2%;
     }
 
     .game {
@@ -341,7 +340,7 @@
     }
 
     #stickers {
-        padding-top: 5%;
+        padding-top: 1%;
         display: block;
         margin-left: auto;
         margin-right: auto;
